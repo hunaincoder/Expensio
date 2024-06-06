@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
+.dummy {
+  font-family: "Inter", sans-serif;
+  font-family: "Inter Tight", sans-serif;
+}
+:root {
+  --light-blue: #ebefff;
+  --darker-blue: #afb3ff;
+  --darkest-blue: #656ed3;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+
+  font-family: "Inter", sans-serif;
+  font-size: 16;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.bg {
+  background: linear-gradient(
+    to right,
+    #ebefff 0%,
+    #ebefff 65%,
+    #afb3ff 65%,
+    #afb3ff 100%
+  );
+}
+
+.input {
+  width: 367px;
+  height: 34px;
+  background-color: var(--light-blue);
+  border: 1px solid #656ed3;
+  border-radius: 50px;
+  margin-top: 4px;
+  padding: 13px;
+}
+.btn {
+  margin-top: 35px;
+  background-color: var(--light-blue);
+  padding: 5px;
+}
+.btn:hover {
+  background-color: var(--darkest-blue);
+  color: #ebefff;
+}
+.text {
+  padding: 2px;
+  padding-top: 22px;
+  font-family: "Inter Tight", sans-serif;
+}
+#heading {
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  margin-right: 96px;
+}
+
+.bar3 {
+  position: absolute;
+  display: flex;
+  margin-left: 0px;
+  margin-top: -160px;
+}
+
+.bar {
+  position: relative;
+  top: -22px;
+  z-index: 999;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.error-message {
+  background-color: rgb(255, 174, 174);
+  color: red;
+  text-align: center;
+  padding: 6px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.input:hover {
+  border-width: 3px;
+}

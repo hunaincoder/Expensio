@@ -1,0 +1,69 @@
+.upper {
+  position: relative;
+  top: 5px;
+  right: -110px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.upper form {
+  display: flex;
+  align-items: center;
+}
+
+.upper input[type="date"],
+.upper input[type="submit"],
+.upper a {
+  margin-right: 40px;
+  margin-left: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+
+  transition: all 3s ease;
+}
+
+.upper input[type="submit"] {
+  background-color: #afb3ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.upper input[type="submit"]:hover {
+  background-color: #656ed3;
+}
+.upper a {
+  color: #afb3ff;
+  text-decoration: none;
+}
+
+.upper input[type="date"]:focus,
+.upper input[type="submit"]:hover,
+.upper a:hover {
+  transform: scale(1.2);
+}
+
+.upper select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+#reset-reports {
+  background-color: rgb(255, 127, 127);
+  color: white;
+  padding: 10px 20px;
+}
+
+.buttons-report {
+  display: flex;
+}
+
+.buttons-report input[type="submit"],
+.buttons-report a {
+  margin-right: 2px; 
+}
